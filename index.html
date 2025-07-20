@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Zahran - Frontend Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Zahr<span>an</span></a>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="nav-links" id="nav-links">
+                    <a class="active" href="#">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+            <div class="content">
+                <div class="div-text">
+                    <h4>Hello I'm</h4>
+                    <h1>Muhammad Zahran</h1>
+                    <span class="job-title">Front-End Developer</span>
+                    <div class="social-links">
+                        <a href="https://x.com/MahmaudAli60220?t=0FdIJovf6OZMRvpKrICB4Q&s=09"><i class="fab fa-twitter"></i></a>
+                        <a href="https://github.com/"><i class="fab fa-github"></i></a>
+                        <a href="https://www.facebook.com/?locale=ar_AR"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/in/muhammad-ali-zahran-9a3b9b31b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <a href="cv.pdf" download class="btn">Download CV</a>
+                </div>
+                <div class="div-img">
+                    <img src="img/image.png" alt="Muhammad Zahran" class="profile-img">
+                </div>
+            </div>
+            <div id="about" class="content-about" data-aos="fade-up" data-aos-duration="3000">
+                <h2>about me</h2>
+                <p>I'm Mohamed Ali Zahran, a <span>Front-End Developer</span> with experience in <span>Html, CSS, JavaScript, React.js, and Bootstrap</span> .
+                    I enjoy building responsive websites and learning new technologies through hands-on projects.
+                    I'm open to freelance work or internships to grow my skills and be part of real-world projects.</p>
+            </data-aos=>
+            <div id="skills" class="content-skills"data-aos="fade-up" data-aos-duration="3000">
+                <h2>my skills</h2>
+                <p>here  are some of technologies i work with:</p>
+                <div  class="skills" data-aos="fade-up" data-aos-duration="3000">
+                    <span ><i class="fa-brands fa-html5"></i><h3>HTML</h3></span>
+                    <span><i class="fa-brands fa-css3-alt"></i><h3>css</h3></span>
+                    <span><i class="fa-brands fa-bootstrap"></i><h3>BootStrap</h3></span>
+                    <span><i class="fa-brands fa-square-js"></i><h3>JavaScript</h3></span>
+                    <span><i class="fa-brands fa-react"></i><h3>React</h3></span>
+                </div>
+            </div>
+
+            <div id="projects" class="content-projects">
+                <h2 data-aos="fade-up" data-aos-duration="3000">my works</h2>
+                <div class="pro">
+                    <span data-aos="fade-up-right" data-aos-duration="3000">
+                        <a href="https://zahran2005.github.io/weather/"><img src="img/weather.png" alt=""></a>
+                        <h3>Weather</h3>
+                        <p>A personal weather project designed and coded from scratch using HTML,CSS,and JavaScript.
+                            The goal of the website is to showcase my skills as a Front-End Developer in a professional and attractive way,while providing a smooth and user-friendly experience across all devices.</p>
+                            <div class="tek">
+                                <span>HTML</span>
+                                <span>Css</span>
+                                <span>JavaScript</span>
+                                <span>Api</span>
+                            </div>
+                                <div class="link">
+                                    <a href="https://github.com/Zahran2005/weather.git"><i class="fa-brands fa-github"></i> GitHub</a>
+                                    <a href="https://github.com/Zahran2005/weather.git"><i class="fa-solid fa-link"></i> Link</a>
+                                </div>
+                    </span>
+                    <span  data-aos="fade-up-left" data-aos-duration="3000">
+                        <a href="https://zahran2005.github.io/vidtube-app/"><img src="img/portfolio1.png" alt=""></a>
+                        <h3>Vidtube App</h3>
+                        <p>A personal vidtube project designed and coded from scratch using HTML,CSS,and JavaScript.
+                            The goal of the website is to showcase my skills as a Front-End Developer in a professional and attractive way,while providing a smooth and user-friendly experience across all devices.</p>
+                            <div class="tek">
+                                <span>HTML</span>
+                                <span>Css</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="link">
+                                <a href="https://github.com/Zahran2005/vidtube-app.git"><i class="fa-brands fa-github"> </i>GitHub</a>
+                                <a href="https://github.com/Zahran2005/vidtube-app.git"><i class="fa-solid fa-link"> </i>Link</a>
+                            </div>
+                    </span>
+                </div>
+            </div>
+
+            <div id="contact" class="content-contact" data-aos="fade-up" data-aos-duration="3000">
+                <h2>Contact Me</h2>
+                <div class="comment-mail">
+                    <form action="https://formsubmit.co/mhmdlzhran@gmail.com" method="post">
+                        <h4>Send Mail & Let Comment</h4>
+                        <input type="text" placeholder="Your name" required>
+                        <input type="email" placeholder="Your@gmail.com"required>
+                        <input type="text"  class="message"  placeholder="Write your message..." required>
+                        <button type="submit" id="send">Send<i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                    <span class="links">
+                        <a href="mhmdlzhran@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://wa.me/201030118960"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://t.me/mohamed_zahran2005"><i class="fa-brands fa-telegram"></i></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button id="scrollTopBtn">&#8593;</button>   
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script src="main.js"></script>
+</body>
+</html>
