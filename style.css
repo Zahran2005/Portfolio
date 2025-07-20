@@ -305,7 +305,10 @@ nav {
 }
 /* content-projects */
 .content-projects{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-top: 130px;
 }
 .content-projects h2{
@@ -547,7 +550,6 @@ nav {
     }
     .content-contact .comment-mail form {
         width: 500px;
-        /* max-width: 500px; */
     }
     #scrollTopBtn{
         display: none !important;
@@ -572,8 +574,7 @@ nav {
         font-size: 24px;
     }
     .content-projects .pro span{
-        width: 100%;
-        max-width: 320px;
+        width: 300px;
         height: auto;
     }
      .content-projects .pro {
@@ -584,7 +585,6 @@ nav {
     }
      .content-contact .comment-mail form {
         width: 300px;
-        /* max-width: 300px; */
     }
     
 }
